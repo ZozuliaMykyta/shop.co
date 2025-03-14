@@ -12,3 +12,7 @@ Technologies Used
 - Express for backend API handling
 - React for the frontend interface
 - Node.js for the server-side environment
+
+I encountered some issues while trying to deploy the project. Unfortunately, I wasn't able to successfully deploy it at the moment. Despite following the necessary steps, I faced some challenges related to deployment configurations and hosting.
+
+That being said, I am actively working on resolving the deployment process and plan to update the project once it's live.
