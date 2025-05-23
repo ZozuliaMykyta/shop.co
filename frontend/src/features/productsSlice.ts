@@ -21,7 +21,9 @@ export const fetchProducts = createAsyncThunk<
   { rejectValue: string }
 >("products/fetchProducts", async (_, { rejectWithValue }) => {
   try {
-    const response = await axios.get<IProduct[]>("http://localhost:3000/cards");
+    const response = await axios.get<IProduct[]>(
+      "https://shop-co-backend-s1wj.onrender.com/cards"
+    );
     const productsWithRating = response.data.map((product: any) => ({
       ...product,
       rating: generateRandomRating(),

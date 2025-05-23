@@ -29,7 +29,7 @@ export const fetchReviews = createAsyncThunk<
 >("reviews/fetchReviews", async (sort, { rejectWithValue }) => {
   try {
     const response = await axios.get<Review[]>(
-      `http://localhost:3000/reviews?sort=${sort}`
+      `https://shop-co-backend-s1wj.onrender.com/reviews?sort=${sort}`
     );
     const transformedData = response.data.map((item) => ({
       ...item,
