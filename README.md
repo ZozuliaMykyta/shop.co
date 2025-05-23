@@ -7,7 +7,6 @@
 ## 🚀 Features
 
 ### Frontend
-
 - ⚛️ React + TypeScript
 - 🌐 React Router for navigation
 - 🛍️ Shopping cart (add, remove, update)
@@ -17,7 +16,6 @@
 - 📱 Fully responsive design
 
 ### Backend
-
 - ⚙️ Express.js server with Node.js
 - 🗃️ API endpoints for products and reviews
 - 🧮 MongoDB with Mongoose for data modeling
@@ -27,36 +25,39 @@
 
 ## 🔧 Tech Stack
 
-| Technology         | Purpose               |
-| ------------------ | --------------------- |
-| React + TypeScript | Frontend UI           |
-| React Router       | Client-side routing   |
-| Redux Toolkit      | State management      |
-| React Hook Form    | Form control          |
-| Swiper             | Carousels and sliders |
-| Express.js         | Backend server        |
-| MongoDB + Mongoose | Database    |
+| Technology         | Purpose                  |
+|--------------------|--------------------------|
+| React + TypeScript | Frontend UI              |
+| React Router       | Client-side routing      |
+| Redux Toolkit      | State management         |
+| React Hook Form    | Form control             |
+| Swiper             | Carousels and sliders    |
+| Express.js         | Backend server           |
+| MongoDB + Mongoose | Database                 |
 
 ---
 
 ## 📥 How to Copy and Run This Project
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/ZozuliaMykyta/shop.co.git
 cd shop.co
+```
 
 ### 2. Install dependencies
 
-#### Client
-
+#### Frontend
+```bash
 cd frontend
 npm install
+```
 
-#### Server
-
+#### backend
+```bash
 cd backend
 npm install
+```
 
 ### 🔄 Configure Nodemon for TypeScript
 
@@ -71,14 +72,15 @@ To run the server with TypeScript using `nodemon`, create a `nodemon.json` file 
 }
 ```
 
-### 3. Start development servers
+### 5. Start development servers
 
-#### Server (default port: 3000)
-
-cd
+#### frontend (default port: 5173)
+```bash
 npm run dev
+```
 
-#### Client (default port: 5173)
-
-cd frontend
-npm run dev
+#### backend (default port: 3000)
+```bash
+cd backend
+npm run server
+```
