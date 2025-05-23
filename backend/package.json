@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
     "server": "nodemon"
   },
   "dependencies": {
