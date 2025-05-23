@@ -71,6 +71,14 @@ To run the server with TypeScript using `nodemon`, create a `nodemon.json` file 
   "exec": "ts-node --project tsconfig.json server.ts"
 }
 ```
+## Environment Variables
+
+Create a `.env` file in the /backend and add the following variables:
+
+```env
+DATABASE_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>?retryWrites=true&w=majority&appName=<clusterName>
+SECRET_KEY=your_secret_key_here
+```
 
 ### 5. Start development servers
 
