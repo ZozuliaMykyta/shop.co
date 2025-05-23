@@ -1,5 +1,5 @@
 import express from "express";
-import getHappyReview from "../controllers/happyReviewsController.ts";
+import getHappyReview from "../controllers/happyReviewsController";
 
 const router = express.Router();
 

@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import Review from "../models/reviewsModel.ts";
+import Review from "../models/reviewsModel";
 
 const handleError = (res: Response, err: string, errorDetails?: any) => {
   console.error(errorDetails);

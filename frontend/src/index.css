@@ -530,6 +530,8 @@ body {
 }
 /* offers */
 .offers {
+  position: relative;
+  z-index: 10;
   margin-bottom: -89px;
 }
 .offers__container {
@@ -587,6 +589,7 @@ body {
   line-height: 22px;
   border: 2px solid var(--white);
   transition: all 0.4s ease 0s;
+  cursor: pointer;
 }
 .offers__btn:hover {
   border: 2px solid var(--black);

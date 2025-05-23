@@ -1,10 +1,11 @@
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
+import * as dotenv from "dotenv";
 import mongoose from "mongoose";
 import express from "express";
 import cors from "cors";
-import cardsRoutes from "./routes/cardRoutes.ts";
-import happyReviewsRoutes from "./routes/happyReviewsRoutes.ts";
-import reviewsRoutes from "./routes/reviewsRoutes.ts";
+import cardsRoutes from "./routes/cardRoutes";
+import happyReviewsRoutes from "./routes/happyReviewsRoutes";
+import reviewsRoutes from "./routes/reviewsRoutes";
 
 dotenv.config();
 

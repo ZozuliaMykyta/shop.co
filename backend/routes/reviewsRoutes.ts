@@ -1,6 +1,6 @@
 import express from "express";
-import getReview from "../controllers/reviewsGetController.ts";
-import postReview from "../controllers/reviewsPostController.ts";
+import getReview from "../controllers/reviewsGetController";
+import postReview from "../controllers/reviewsPostController";
 
 const router = express.Router();
 

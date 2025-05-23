@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import Card from "../models/cardModel.ts";
+import Card from "../models/cardModel";
 
 const handleError = (res: Response, err: string, errorDetails?: any) => {
   console.error(errorDetails);
