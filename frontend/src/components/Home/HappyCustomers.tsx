@@ -23,7 +23,7 @@ const HappyCustomers: React.FC = () => {
       try {
         setError("");
         const response = await axios.get<IReview[]>(
-          "http://localhost:3000/happyreviews"
+          "https://shop-co-backend-s1wj.onrender.com/happyreviews"
         );
         setReviews(response.data);
       } catch (error) {
