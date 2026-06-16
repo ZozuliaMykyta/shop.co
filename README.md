@@ -4,6 +4,7 @@
 
 > ⚠️ **Note on Live Demo:** The backend is hosted on Render's free tier. **It may take 30-60 seconds to wake up** upon your first visit. Thank you for your patience!
 
+🌐 **Live Demo:** [shop-co-frontend.onrender.com](https://shop-co-frontend.onrender.com)
 📺 **Video Walkthrough:** [Link to YouTube/Loom/GIF here]
 
 ---
