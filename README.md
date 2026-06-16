@@ -6,7 +6,7 @@
 
 🌐 **Live Demo:** [shop-co-frontend.onrender.com](https://shop-co-frontend.onrender.com)
 
-📺 **Video Walkthrough:** [Link to YouTube/Loom/GIF here]
+📺 **Video Walkthrough:** [Watch Demo](https://youtu.be/7Bzees_WQGY)
 
 ---
 
